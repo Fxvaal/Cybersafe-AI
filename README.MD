@@ -40,6 +40,20 @@ Detected Keywords:
 - account
 - prize
 ```
+## How It Works
+
+CyberSafe AI analyzes text messages by searching for common phishing keywords such as:
+
+- winner
+- urgent
+- verify
+- password
+- bank
+- account
+- click
+- prize
+
+The application counts the detected indicators, assigns a risk level, estimates a confidence score, and provides security recommendations.
 
 ## Future Improvements
 
