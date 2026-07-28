@@ -5,9 +5,11 @@ CyberSafe AI is a Python-based phishing message detection tool that helps users 
 
 
 ## Features
+
 - Detects phishing-related keywords
-- Displays detected keywords
-- Assigns a risk level (SAFE, LOW, MEDIUM, HIGH)
+- Categorizes messages into SAFE, REVIEW, LOW, MEDIUM, and HIGH risk
+- Calculates an AI-inspired confidence score
+- Displays detected indicators
 - Provides cybersecurity recommendations
 - Simple command-line interface
 
@@ -57,10 +59,12 @@ The application counts the detected indicators, assigns a risk level, estimates 
 
 ## Future Improvements
 
-- Machine learning phishing detection
-- URL analysis
+- Machine Learning phishing detection
+- URL reputation checking
 - Email attachment scanning
-- Web interface
+- Web application interface
+- Email header analysis
+- LLM-powered contextual analysis
 
 ## Developer
 
